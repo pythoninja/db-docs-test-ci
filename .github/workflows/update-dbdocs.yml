@@ -27,4 +27,4 @@ jobs:
         DBDOCS_AUTH: ${{ secrets.DBDOCS_AUTH }}
       run: echo "$DBDOCS_AUTH" > ~/.netrc
     
-    - run: dbdocs build fakedata.dbml
+    - run: dbdocs build ./schema/fakedata.dbml
