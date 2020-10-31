@@ -8,7 +8,7 @@
 Project FakedataBackend {
 database_type: 'PostgreSQL'
 note: '''
-# Randomicu project database
+# Random.icu project database
 
 Statistics from Randomicu and Fakedata apps
 '''
